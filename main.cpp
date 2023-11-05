@@ -6,12 +6,12 @@ int main()
     std::cout << "Enter the number: ";
     std::cin >> number;
 
-    int* pointer = &number; 
+    int* ptr = &number; 
 
-    if (*pointer > 0) {
+    if (*ptr > 0) {
         std::cout << "The number is positive." << std::endl;
     }
-    else if (*pointer < 0) {
+    else if (*ptr < 0) {
         std::cout << "The number is negative." << std::endl;
     }
     else {
